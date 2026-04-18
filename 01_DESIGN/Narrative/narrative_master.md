@@ -1,0 +1,3 @@
+<!-- One-page story summary. Logline, protagonist, antagonist, central dramatic question, resolution. -->
+
+You are a sorcerer, venturing into the belly of your enemy’s castle in a demonic realm, where they are torturing your estranged master, attempting to possess his soul. You climb up out of the moat, through the gate, past the various wards, into the dungeon, where your enemies await. You must do battle with them. After freeing your master, a demon knight severs your head, compelling your master to channel the last bits of his soul into you, granting you the power to destroy the knight and the pillars of the castle, burying you all beneath the rubble.
