@@ -34,8 +34,6 @@
 
 The game blends the fast-paced, heavy-hitting combat feel of the classic Doom engine with the NPC interaction, inventory depth, and narrative investment of a Japanese RPG while prioritizing atmosphere, tight pacing, and a memorable ending.
 
-*See: `narrative_master.md` for full story summary.*  
-
 ---
 
 ## 2. Engine and Platform
@@ -47,7 +45,7 @@ Chosen for its first-person combat foundation, scripting depth sufficient for NP
 
 **Performance Target:** 60fps at 1080p on mid-range hardware.
 
-*Full technical detail in: `02_Technical/tech_overview.md`*
+*Full technical detail in: [02_Technical/tech_overview.md](../02_Technical/tech_overview.md)*
 
 ---
 
@@ -79,7 +77,7 @@ Chosen for its first-person combat foundation, scripting depth sufficient for NP
 
 The player's **master** has gone north to confront the **Banished Lord** and has not returned. **King Orvyn** of **Thornwall** commissions the player to investigate and return with proof the Banished Lord has been slain. Crossing the corrupted **Wychfeld**, the player gains entry to **Ashenmoor Castle** via a drowned wizard's **wraith** and a flooded moat, fights through its interior, and descends to the deepest dungeon — where the master is discovered to have turned traitor, opening a demonic portal beside the Banished Lord. In the final confrontation, the Sorcerer will lose his head but will nonetheless close the portal and bring down the castle around him.
 
-*Full beat-by-beat story in: `01_Design/narrative.md`*
+*See: [narrative.md](./narrative.md) for full story summary.*  
 
 ---
 
@@ -94,14 +92,14 @@ The player's **master** has gone north to confront the **Banished Lord** and has
 
 ## 6. Core Gameplay Loop
 
-```
+[`](../`)
 Explore zone
     → Combat encounters
     → Discover items and NPCs
     → Advance quest flags
     → New access granted
     → Next zone
-```
+[`](../`)
 
 Two alternating registers: **Town (slow)** — NPC dialogue, shopping, quest context. **Field and Castle (fast)** — movement, threat management, resource conservation. Each register makes the other feel more pronounced.
 
@@ -128,7 +126,7 @@ Two alternating registers: **Town (slow)** — NPC dialogue, shopping, quest con
 | The Eye of the Void | Unmakyr | Eternity Shards |
 | The Anima Reliquary | Soul Cube | Kill-charged (5 kills) | -->
 
-*Full weapon specs and damage values in: `01_Design/GDD_systems.md`*
+*Full weapon specs and damage values in: [01_Design/GDD_systems.md](./GDD_systems.md)*
 
 ---
 
@@ -162,7 +160,7 @@ Kept deliberately lean for a one-hour game. The player finds or buys a small num
 | Bread and Salt | Given by rescued couple | Restores health and mana simultaneously — one only |
 | Shard of the Relic | Remains after wraith summoning | Auto-activates at finale — one defensive burst |
 
-*Full item stats and placement in: `01_Design/GDD_systems.md`*
+*Full item stats and placement in: [01_Design/GDD_systems.md](./GDD_systems.md)*
 
 ---
 
@@ -174,7 +172,7 @@ Used to summon the Water-Wraith at the dark pool near Ashenmoor's outer ruins, g
 
 The Relic is the game's one mandatory key item. No other hard-locked progression gates exist.
 
-*Quest integration in: `01_Design/GDD_systems.md`*
+*Quest integration in: [01_Design/GDD_systems.md](./GDD_systems.md)*
 
 ---
 
@@ -201,7 +199,7 @@ Enemies organized by zone of primary appearance. Behavior, health values, damage
 - Necromancer - demonic sorcerer, range attacks, opening the portal
 - Banished Lord — finale boss, close-range attacks
 
-*Enemy stats and behavior detail in: `01_Design/GDD_systems.md`*
+*Enemy stats and behavior detail in: [01_Design/GDD_systems.md](./GDD_systems.md)*
 
 ---
 
@@ -226,7 +224,7 @@ Enemies organized by zone of primary appearance. Behavior, health values, damage
 **Wychfeld:**
 - **Gest** — elderly farmer who refused to leave, optional wolf intelligence and errand
 
-*Full dialogue scripts in: `01_Design/npcs_and_dialogue.md`*
+*Full dialogue scripts in: [01_Design/npcs_and_dialogue.md](./npcs_and_dialogue.md)*
 
 ---
 
@@ -234,7 +232,7 @@ Enemies organized by zone of primary appearance. Behavior, health values, damage
 
 Linear with one optional branch. The moat is a one-way threshold — the player cannot return to Thornwall or the Wychfeld once they enter Ashenmoor.
 
-```
+[`](../`)
 Tutorial Woods
     └── Thornwall (hub)
             └── Thornwall Castle (one visit)
@@ -252,9 +250,9 @@ Tutorial Woods
                                                                             └── Chambers
                                                                                     └── Dungeons
                                                                                             └── Deepest Cell (finale)
-```
+[`](../`)
 
-*Room-by-room level detail in: `01_Design/levels.md`*
+*Room-by-room level detail in: [01_Design/levels.md](./levels.md)*
 
 ---
 
@@ -284,50 +282,28 @@ Flag-based rather than journal-based. The world responds to what the player has 
 
 **HUD:** Health indicator, active weapon mana, active consumable slot. Minimal — nothing that breaks the gothic atmosphere.
 
-*?Inventory access pauses gameplay — a deliberate JRPG-mode moment within the FPS flow, reinforcing the genre hybrid identity.?*
+**Inventory:** Menu-accessible, pauses gameplay. Displays weapons, equipped armor across four slots, and consumable items.
 
-*Full UI specifications and HUD layout in: `GDD_ui_and_hud.md`*
-*Full inventory system mechanics in: `GDD_inventory_system.md`*
+**Save Points (three):**
+- Thornwall — auto-saves on any return to hub
+- Ashenmoor Courtyard — auto-saves after barbican clearance
+- Ashenmoor Chambers — auto-saves after feast clearance
 
----
+No manual saving. Checkpoint spacing is appropriate for a one-hour game.
 
-## 17. Save System
-
-The game saves at defined checkpoints rather than freely, reminiscent of classic JRPGs, typically by resting (at an inn) or praying. Primary save points are:
-
-- Thornwall
-    - Church
-    - Inn (also replenishes health/mana)
-- The Woodcutter's Chapel (Greywood)
-- Ashenmoor Chapel
-
-No manual save outside of these points. The design intent is that resource scarcity and checkpoint spacing create meaningful tension without punishing the player excessively.
-
-*Full save architecture in: `GDD_save_system.md`*
+*Full UI and save specifications in: [01_Design/GDD_systems.md](./GDD_systems.md)*
 
 ---
 
-## 18. Audio Direction
+## 15. Audio and Art Direction
 
-The game's sonic landscape moves from warmth to dread as the player progresses north. Thornwall is fire and conversation and distant music. The Wychfeld is wind, silence, and wrong animal sounds. Ashenmoor is fire in the wrong colors and the growing Latin choral drone that guides the player downward through the dungeon.
+**Audio:** The sonic landscape moves from warmth to dread as the player progresses north. Thornwall is fire and conversation and distant music. The Wychfeld is wind, silence, and fierce animal sounds. Ashenmoor is rubble, smoke, ash, and the growing Latin choral drone that guides the player downward through the dungeon.
 
-**Soundtrack**
+**Soundtrack:** Largely Dungeon Synth inspired.
 
-Largely Dungeon Synth inspired.
+**Art:** Medieval fantasy. Warm and maintained in Thornwall; ashen, geometric, and wrong in Ashenmoor; distorting and failing in the Wychfeld between them. The player's aesthetic is apprentice-scholar — robes, wands, staves — never warrior.
 
-In the final dungeon, the Deepest Cell, a **Latin choir** rings in the final boss, beginning as recognizable liturgical fragments and becoming increasingly distorted and non-liturgical as the player descends, functioning simultaneously as navigation tool and atmospheric escalation device.
-
-*Full audio direction and SFX list in: `audio_direction_document.md` and `audio_sfx_list.md`*
-
----
-
-## 19. Art Direction
-
-Medieval fantasy with gothic architecture and corrupted natural environments. The visual contrast between Thornwall (warm, maintained, human) and Ashenmoor (ashen, geometric, wrong) is the game's primary visual argument. The Wychfeld sits between them tonally — natural forms beginning to distort, farmland going grey, forest light going green.
-
-The player's sorcerer aesthetic draws from apprentice-scholar rather than warrior — robes, not armor; wands and staves, not swords. The magical weapons should read as elegant, carved, mystical objects.
-
-*Full direction in: `03_Art/art_direction.md` and `04_Audio/audio_direction.md`*
+*Full direction in: [03_Art/art_direction.md` and `04_Audio/audio_direction.md](../03_Art/art_direction.md` and `04_Audio/audio_direction.md)*
 
 ---
 
@@ -351,7 +327,7 @@ The player's sorcerer aesthetic draws from apprentice-scholar rather than warrio
 - Covered portrait mystery in Thornwall Castle throne room
 - Watchtower reduced to environmental landmark only
 
-*Living cut list in: `00_Admin/cut_list.md`*
+*Living cut list in: [00_Admin/cut_list.md](../00_Admin/cut_list.md)*
 
 ---
 
