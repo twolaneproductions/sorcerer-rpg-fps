@@ -36,7 +36,7 @@ This document holds everything that has been removed from active scope. Nothing 
 *Post-launch potential:* Moderate — a good addition if a harder difficulty mode or new zone is added.
 
 **The Siege Spire** (Ballista equivalent)
-*Reason:* The precision single-shot role is already partially covered by the Hex Twig's infinite-ammo fallback. The Siege Spire's implementation complexity (Spire Bolt crafting system) is disproportionate to a one-hour game.
+*Reason:* The precision single-shot role is already partially covered by the Witch Switch's infinite-ammo fallback. The Siege Spire's implementation complexity (Spire Bolt crafting system) is disproportionate to a one-hour game.
 *Post-launch potential:* High — the crafting mechanic is interesting and worth revisiting.
 
 **The Unraveling Eye** (Unmakyr equivalent)

@@ -67,7 +67,7 @@ One difficulty setting for initial release. The game is tuned to be challenging 
 - The player can carry all weapons simultaneously
 - Weapons are switched instantly — no draw animation delay in base implementation
 - Each weapon has its own ammunition pool — running out of ammo on one weapon does not affect others
-- The Hex Twig never runs out of ammunition and is always available as a fallback
+- The Witch Switch never runs out of ammunition and is always available as a fallback
 - Ammunition is found as pickups in the environment and dropped by certain enemies
 - The inventory screen shows current ammo count for each weapon
 
@@ -75,7 +75,7 @@ One difficulty setting for initial release. The game is tuned to be challenging 
 
 ---
 
-#### Hex Twig
+#### Witch Switch
 **Doom equivalent:** Pistol
 **Description:** An uncarved apprentice's wand. A stick that happens to work. The player's starting weapon and permanent fallback.
 **Ammunition:** Infinite minor mana — no pickup required
@@ -126,7 +126,7 @@ One difficulty setting for initial release. The game is tuned to be challenging 
 **Ammo capacity:** 12 cores
 **Ammo per shot:** 1 core
 **Fire rate:** 1 shot per 1.5 seconds
-**Projectile speed:** Slow — approximately 40% of Hex Twig bolt speed
+**Projectile speed:** Slow — approximately 40% of Witch Switch bolt speed
 **Damage on impact:** 35% direct
 **Splash damage:** 15% at inner radius, 8% at outer radius
 **Self-damage:** Yes — firing at close range damages the player. Splash radius identical to enemy splash.
@@ -185,7 +185,7 @@ One difficulty setting for initial release. The game is tuned to be challenging 
 
 | Weapon | Where Found | Missable? |
 |---|---|---|
-| Hex Twig | Starting equipment | No |
+| Witch Switch | Starting equipment | No |
 | Scatterstaff | Thornwall (purchasable) or Greywood (pickup) | No |
 | The Hungering Branch | Thornwall — Maret, full conversation required | Yes — requires dialogue completion |
 | The Tempest Rod | Ashenmoor barbican — locked chest | No |

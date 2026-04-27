@@ -81,7 +81,7 @@ Each wand and staff should sound distinct and readable — a player should know 
 
 | Weapon | Sound Character |
 |---|---|
-| Hex Twig | Dry crack, small, immediate |
+| Witch Switch | Dry crack, small, immediate |
 | Scatterstaff | Wide percussive burst, bone-rattle texture |
 | Tempest Rod | Wind-up whine building to sustained electrical crackle |
 | Comet Staff | Deep thump on charge, resonant boom on detonation |

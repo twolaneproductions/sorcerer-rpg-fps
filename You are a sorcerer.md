@@ -19,7 +19,7 @@
 
 ## Magic
 
-* The Pistol → Hex Twig
+* The Pistol → Witch Switch
   * A bare, unadorned apprentice's wand. Single-shot arcane bolts with no frills.
   * Low damage, infinite minor mana
   * your fallback when everything else runs dry. Never impressive, always reliable.

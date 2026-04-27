@@ -73,7 +73,7 @@ Corrupted humans retain their original visual identity beneath the corruption �
 
 Wands and staves read as **instruments, not weapons** — carved and specific, like objects made by a craftsman for a purpose. Each has a visual identity that communicates its function:
 
-- **Hex Twig** — bare, uncarved, almost accidental. A stick that happens to work.
+- **Witch Switch** — bare, uncarved, almost accidental. A stick that happens to work.
 - **Scatterstaff** — wide-mouthed, gnarled, organic. Bone-colored.
 - **Tempest Rod** — gyroscopic, geometric, with moving parts that spin up before firing.
 - **Comet Staff** — long, smooth, with a bright point that glows brighter as it charges.
