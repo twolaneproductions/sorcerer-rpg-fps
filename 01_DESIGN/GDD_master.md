@@ -1,8 +1,8 @@
 # GDD_master.md
 ## Ashenmoor — Game Design Document (Master)
-**Gate Shaker Press LLC**
-**Version:** 0.1
-**Last Updated:** 2026-04-18
+**Gate Shaker Press**
+**Version:** 0.2
+**Last Updated:** 2026-04-26
 **Status:** Phase 0 — Draft
 
 ---
@@ -15,28 +15,24 @@
 4. [Story Summary](#4-story-summary)
 5. [Player Character](#5-player-character)
 6. [Core Gameplay Loop](#6-core-gameplay-loop)
-7. [Combat System](#7-combat-system)
-8. [Magic Weapons](#8-magic-weapons)
-9. [Armor System](#9-armor-system)
-10. [Items and Consumables](#10-items-and-consumables)
-11. [Key Items](#11-key-items)
-12. [Enemy Roster](#12-enemy-roster)
-13. [NPCs and Dialogue](#13-npcs-and-dialogue)
-14. [Quest System](#14-quest-system)
-15. [World Structure and Levels](#15-world-structure-and-levels)
-16. [Inventory and UI](#16-inventory-and-ui)
-17. [Save System](#17-save-system)
-18. [Audio Direction](#18-audio-direction)
-19. [Art Direction](#19-art-direction)
-20. [Scope and Cut List Reference](#20-scope-and-cut-list-reference)
+7. [Magic Weapons](#7-magic-weapons)
+8. [Armor and Items](#8-armor-and-items)
+9. [Key Item](#9-key-item)
+10. [Enemy Roster](#10-enemy-roster)
+11. [NPCs](#11-npcs)
+12. [World Structure](#12-world-structure)
+13. [Quest Progression](#13-quest-progression)
+14. [UI and Save System](#14-ui-and-save-system)
+15. [Audio and Art Direction](#15-audio-and-art-direction)
+16. [Scope and Constraints](#16-scope-and-constraints)
 
 ---
 
 ## 1. Project Overview
 
-**Ashenmoor** is a first-person shooter with JRPG structural elements, built in UZDoom and set in a medieval fantasy world. The player controls a young sorcerer's apprentice set out to investigate the disappearance of his master, navigating a living town hub, an open overworld, and a corrupted castle full of demonic enemies before arriving at the finale in the castle's dungeon.
+**Ashenmoor** is a short-form first-person shooter with JRPG structural elements, built in UZDoom and set in a medieval fantasy world. Target playtime is **one hour**. The player controls a young sorcerer's apprentice investigating the disappearance of his master, moving through a small town hub, a corrupted overworld, and a demon-occupied castle toward a dramatic finale.
 
-The game blends the fast-paced, heavy-hitting combat feel of the classic Doom engine with the NPC interaction, inventory depth, and narrative investment of a Japanese RPG.
+The game blends the fast-paced, heavy-hitting combat feel of the classic Doom engine with the NPC interaction, inventory depth, and narrative investment of a Japanese RPG while prioritizing atmosphere, tight pacing, and a memorable ending.
 
 *See: `narrative_master.md` for full story summary.*  
 
@@ -45,13 +41,13 @@ The game blends the fast-paced, heavy-hitting combat feel of the classic Doom en
 ## 2. Engine and Platform
 
 **Engine:** UZDoom
-UZDoom provides the foundation for fluid first-person combat while supporting the scripting depth required for NPC dialogue systems, inventory management, and quest flagging necessary for JRPG structural elements. Its modding infrastructure allows rapid prototyping and a large existing knowledge base.
+Chosen for its first-person combat foundation, scripting depth sufficient for NPC dialogue and quest flags, and cross-platform support without licensing cost.
 
-**Primary Platform:** PC (Windows, with Mac and Linux as secondary targets via UZDoom's cross-platform support)
+**Platform:** PC — Windows primary, Mac and Linux via GZDoom's native support. Initial release on itch.io.
 
-**Secondary Platform:** itch.io release preceding any potential Steam release. *Console not in current scope.*
+**Performance Target:** 60fps at 1080p on mid-range hardware.
 
-**Performance Targets:** 60fps minimum at 1080p on mid-range hardware. Defined fully in `tech_performance_targets.md`.
+*Full technical detail in: `02_Technical/tech_overview.md`*
 
 ---
 
@@ -59,7 +55,7 @@ UZDoom provides the foundation for fluid first-person combat while supporting th
 
 **Genre:** First-Person Shooter / JRPG Hybrid — Medieval Dark Fantasy
 
-**Tone:** A mash of colorful JRPG fantasy and dark, gothic atmosphere. Genuine menace rather than camp horror. The world was recently good and is being corrupted — the evil is applied, not intrinsic, which makes it feel like a loss rather than a given. Combat is fast and satisfying. Narrative moments are slow and deliberate. The contrast between these two registers is intentional and central to the experience.
+**Tone:** A mash of colorful JRPG fantasy and dark, gothic atmosphere. The world was recently good and is being corrupted — the evil is applied, not intrinsic, which makes it feel like a loss. Combat is fast. Narrative moments are slow. The contrast is deliberate and central to the experience.
 
 **Primary Influences:**
 - FPSs
