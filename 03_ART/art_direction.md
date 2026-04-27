@@ -49,7 +49,7 @@ The farmland transition is abrupt and deliberate — green to grey within a few 
 **Ashenmoor**
 The castle is built from stone with a faint mineral greyness that reads as pale rather than white — ashen, as named. Battlements are intact but unmaintained. The courtyard fires burn in iron pits and cast orange-red light with too many shadows for the number of sources. The interior goes darker with each zone — hall to chambers to dungeon, a deliberate compression of light.
 
-The dungeon's bioluminescent green is the only color below-ground. It should be beautiful in the way dangerous things are beautiful — present without being welcoming.
+The dungeon's bioluminescent blue-green is the only color below-ground. It should be beautiful in the way dangerous things are beautiful — present without being welcoming.
 
 ---
 
