@@ -301,7 +301,7 @@ At the far end, **the Master** stands with his back to the player, arms raised, 
 
 And at the warlock's shoulder, absolutely still, enormous, watching the door with the calm of something that has never needed to hurry about anything —
 
-The **Demonic Knight Lord**.
+The **Banished Lord**.
 
 The room smells of ozone and Latin and something the player's body recognizes before their mind does as the smell of a threshold — of a door between things that should not have a door between them being forced, slowly, open.
 

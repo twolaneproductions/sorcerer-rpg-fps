@@ -482,18 +482,24 @@ These items are unique — one exists in the entire game. They cannot be purchas
 
 ---
 
-#### Demonic Knight Lord
-**Health:** N/A — not a combat encounter
-**Role:** Scripted finale only. The Lord does not engage in standard combat. He stands, observes, and executes the scripted beheading when the player attempts to interrupt the portal formation.
-**The beheading:** Scripted trigger — when the player fires any weapon at the Master or the portal, the Lord moves. One action. Instantaneous. The player cannot dodge it, block it, or prevent it. It is not a failure state.
-**Notes:** The Lord's design communicates that he is not something the player fights — he is something the player survives. His role in the finale is to demonstrate that the player's conventional agency has run out, which is what makes the resurrection sequence's unconventional agency meaningful.
+#### The Necromancer
+**Health:** 200%
+**Role:** The Banished Lord's servant and the portal's co-architect. Is destroyed in the resurrection sequence by the player's autonomous spell-casting.
 
 ---
 
 #### The Master
-**Health:** N/A — scripted finale only
-**Role:** The player's master, revealed as the Banished Lord's ally and the portal's architect. Does not engage in combat. Is destroyed in the resurrection sequence by the player's autonomous spell-casting.
+**Health:** 250%
+**Role:** The player's master, revealed as the Banished Lord's ally and the portal's co-architect. Does not engage in combat. Is destroyed in the resurrection sequence by the player's autonomous spell-casting.
 **Notes:** The Master's betrayal is the narrative's primary reversal. His death in the resurrection sequence — destroyed by his own apprentice, involuntarily, through a power the apprentice didn't know they had — is the story's thematic resolution. His character detail is in `narrative.md`.
+
+---
+
+#### Banished Lord
+**Health:** 300%
+**Role:** Scripted finale only. The Lord does not engage in standard combat. He stands, observes, and executes the scripted beheading when the player attempts to interrupt the portal formation.
+**The beheading:** Scripted trigger — when the player fires any weapon at the Master or the portal, the Lord moves. One action. Instantaneous. The player cannot dodge it, block it, or prevent it. It is not a failure state.
+**Notes:** The Lord's design communicates that he is not something the player fights — he is something the player survives. His role in the finale is to demonstrate that the player's conventional agency has run out, which is what makes the resurrection sequence's unconventional agency meaningful.
 
 ---
 
