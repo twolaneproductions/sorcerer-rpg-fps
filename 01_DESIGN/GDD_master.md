@@ -77,25 +77,18 @@ Chosen for its first-person combat foundation, scripting depth sufficient for NP
 
 ## 4. Story Summary
 
-The player controls **Sorcerer**, a young apprentice whose master has gone north to the kingdom of **Thornwall** to answer the call of **King Orvyn** and has not returned. Confronting Orvyn, the Sorcerer learns that his master was commissioned to head further North, across the corrupted **Wychfeld** forest, to gain secret entry to **Ashenmoor Castle** and confront the **Banished Lord**.
+The player's **master** has gone north to confront the **Banished Lord** and has not returned. **King Orvyn** of **Thornwall** commissions the player to investigate and return with proof the Banished Lord has been slain. Crossing the corrupted **Wychfeld**, the player gains entry to **Ashenmoor Castle** via a drowned wizard's **wraith** and a flooded moat, fights through its interior, and descends to the deepest dungeon — where the master is discovered to have turned traitor, opening a demonic portal beside the Banished Lord. In the final confrontation, the Sorcerer will lose his head but will nonetheless close the portal and bring down the castle around him.
 
-The Sorcerer will trace his master's footsteps, befriending a drowned wizard's wraith who will transport him to Ashenmoor's moat, allowing him to fight his way into the castle, progressing through darker interior zones toward the castle's deepest dungeon.
-
-There he discovers his master has allied himself with the Banished Lord to open a demonic portal. In the final confrontation, the Sorcerer will lose his head, but nonetheless he will close the portal and bring down the castle around him.
-
-*Full beat-by-beat story in: `narrative_story_beats.md`*
+*Full beat-by-beat story in: `01_Design/narrative.md`*
 
 ---
 
 ## 5. Player Character
 
-**Name:** Sorcerer (player-facing title; internal name negotiable)
-**Role:** Apprentice mage, sole protagonist
-**Abilities:** Magic weapon combat, consumable item use, swimming (moat sequence), NPC dialogue interaction
-**Starting Equipment:** The Witch Switch (infinite minor wand), Apprentice's Robe, Apprentice's Cap, one Tincture of Mending
-**Progression:** Health increases, if not through XP leveling up, perhaps via "heart container" items, a la Legend of Zelda. Power growth through equipment acquisition -- better wands, robes, and armor found or purchased throughout the game.
-
-*Full character bible in: `narrative_character_bibles/char_sorcerer.md`*
+**Name:** Sorcerer
+**Abilities:** Magic weapon combat, consumable item use, swimming (moat sequence), NPC dialogue
+**Starting Equipment:** The Witch Switch (infinite minor wand), Apprentice's Robe, one Tincture of Mending
+**Progression:** No leveling system. Power grows entirely through equipment and weapon acquisition.
 
 ---
 
@@ -103,198 +96,156 @@ There he discovers his master has allied himself with the Banished Lord to open 
 
 ```
 Explore zone
-    → Encounter enemies (combat)
-    → Defeat enemies (drops, zone clearance)
-    → Discover items, lore, NPCs
+    → Combat encounters
+    → Discover items and NPCs
     → Advance quest flags
-    → Return to hub (Thornwall) or press forward
-    → New zone unlocked or deeper access granted
+    → New access granted
+    → Next zone
 ```
 
-The loop has two registers: **town (slow)** and **field/castle (fast)**. Town is JRPG-mode — NPC dialogue, shopping, quest pickup, atmosphere. Field and castle are Doom-mode — movement, positioning, threat management, resource conservation. The game alternates between these registers deliberately, using each to make the other feel more pronounced.
+Two alternating registers: **Town (slow)** — NPC dialogue, shopping, quest context. **Field and Castle (fast)** — movement, threat management, resource conservation. Each register makes the other feel more pronounced.
 
 ---
 
-## 7. Combat System
+## 7. Magic Weapons
 
-Fast, fluid first-person combat native to UZDoom's movement model. The player has a basic melee attack, but combat is overwhelmingly magic-based ranged combat using the wand arsenal.
+| Weapon | Doom Equivalent | Ammunition | Notes |
+|---|---|---|---|
+| Witch Switch | Pistol | Infinite minor mana | Starting weapon, always available |
+| Scatterstaff | Shotgun | Bone Pellet Mana | Workhorse close-range weapon |
+| The Tempest Rod | Chaingun | Storm Flux | Wind-up sustained fire |
+| The Comet Staff | Rocket Launcher | Comet Cores | Splash damage, self-damage risk |
+| The Emanation Reed (Magestream Wand) | Plasma Rifle | Arcane Plasma Vials | Rapid-fire arcane bolts |
+| The Iron of Hell | BFG 9000 | Soul Confluence | Rare, devastating, saves itself for the finale |
+| The Hungering Branch (Blood-Sucking Bough) | Chainsaw | None — self-fueling | Melee, converts enemy vitality to mana |
 
-**Key combat parameters:**
-- Player movement speed — fast, Doom-adjacent, not realistic
-- No regenerating health — health pickups and consumables only
-- Mana shared across weapons via individual ammunition pools
-- Enemy strength scales with zone depth -- the deeper into the forest, the deeper into the castle, the more lethal enemies become
-
-*Full combat detail in: `GDD_combat_systems.md`*
-
----
-
-## 8. Magic Weapons
-
-Twelve wands and staves, each corresponding to a landmark weapon from the Doom series translated into a medieval fantasy magic equivalent. Weapons vary by damage type, fire rate, ammunition type and scarcity, and special mechanical behavior.
+<!-- Time permitting, some bonus weapons:
 
 | Weapon | Doom Equivalent | Ammunition |
 |---|---|---|
-| The Witch Switch | Pistol | Infinite minor mana |
-| Scatterstaff | Shotgun | Bone Pellet Mana |
 | The Twin Wyrm | Super Shotgun | Dragonfire Essence |
-| The Tempest Rod | Chaingun | Storm Flux |
-| The Comet Staff | Rocket Launcher | Comet Cores |
-| The Emanation Reed (Magestream Wand) | Plasma Rifle | Arcane Plasma Vials |
-| The Iron of Hell | BFG 9000 | Soul Confluence |
-| The Hungering Branch (Blood-Sucking Bough) | Chainsaw | None — self-fueling |
 | The Siege Spire (Bastion Breaker) | Ballista | Spire Bolts |
 | The Eye of the Void | Unmakyr | Eternity Shards |
-| The Anima Reliquary | Soul Cube | Kill-charged (5 kills) |
+| The Anima Reliquary | Soul Cube | Kill-charged (5 kills) | -->
 
-*Full weapon specs, damage values, and fire rates in: `GDD_magic_weapons.md`*
-
----
-
-## 9. Armor System
-
-Twelve armor pieces across five slots — body, head, hands, feet, and accessory. The player begins in minimal apprentice gear and progressively acquires magical protections. No piece is purely cosmetic — each carries a mechanical effect.
-
-Two late-game pieces (The Dead Wizard's Robe and The Wizard's Own Amulet) are connected narratively and carry a combined bonus when worn together.
-
-**Slots:** Body / Head / Hands / Feet / Accessory
-
-*Full armor stats and acquisition locations in: `GDD_armor_and_items.md`*
+*Full weapon specs and damage values in: `01_Design/GDD_systems.md`*
 
 ---
 
-## 10. Items and Consumables
+## 8. Armor and Items
 
-Twelve consumable items across four categories: healing, mana restoration, utility, and magical augmentation. Items are found in the environment, purchased in Thornwall, and dropped by enemies. Scarcity increases with zone depth.
+Kept deliberately lean for a one-hour game. The player finds or buys a small number of meaningful upgrades rather than managing a large inventory.
 
-**Categories:**
-- **Healing** — Tincture of Mending, Draught of Vitality, Bloodmoss Compress
-- **Mana** — Mana Vial, Concentrated Essence
-- **Utility** — Ghostlight Torch, Ward Stone, Smoke of Confusion
-- **Augmentation** — Sorcerer's Salve, Ring of the Nimble
-- **Narrative Consumables** — Bread and Salt (unique, one only), Shard of the Relic (activates automatically at finale)
+**Armor (four pieces — body, head, hands, accessory):**
 
-*Full item stats and locations in: `GDD_armor_and_items.md`*
+| Piece | Slot | Effect |
+|---|---|---|
+| Apprentice's Robe | Body | Starting armor — minimal protection |
+| Warded Travel Cloak | Body | Reduces physical damage — purchasable in Thornwall |
+| Circlet of Warding | Head | Reduces magical disorientation effects |
+| The Wizard's Own Amulet | Accessory | Given by the wraith — grows stronger as player descends |
+
+**Consumables (five types):**
+
+| Item | Effect | Scarcity |
+|---|---|---|
+| Tincture of Mending | Small health restore | Common |
+| Draught of Vitality | Large health restore | Rare |
+| Mana Vial | Restores moderate mana across weapons | Common |
+| Ghostlight Torch | Reveals hidden enemies, illuminates darkness | Moderate |
+| Sorcerer's Salve | Temporarily amplifies spell damage | Rare |
+
+**Narrative Consumables (unique):**
+
+| Item | Source | Effect |
+|---|---|---|
+| Bread and Salt | Given by rescued couple | Restores health and mana simultaneously — one only |
+| Shard of the Relic | Remains after wraith summoning | Auto-activates at finale — one defensive burst |
+
+*Full item stats and placement in: `01_Design/GDD_systems.md`*
 
 ---
 
-## 11. Key Items
+## 9. Key Item
 
-Non-consumable items that drive quest progression.
+**The Relic** — A magical artifact belonging to the drowned wizard, confiscated by Father Cassian of Thornwall after the wizard was driven from town, kept in the church vestry for safekeeping. Retrieved by the player after speaking with townspeople to understand its significance.
 
-**The Relic** — A magical artifact belonging to the drowned wizard, confiscated by Father Cassian of Thornwall after the wizard was driven from town, kept in the church vestry for safekeeping. Retrieved by the player after speaking with townspeople to understand its significance. Used to summon the Water-Wraith at the dark pool near Ashenmoor's outer ruins, granting access to the moat and the castle interior. A fragment of the relic (the Shard) persists as a consumable through the remainder of the game.
+Used to summon the Water-Wraith at the dark pool near Ashenmoor's outer ruins, granting access to the moat and the castle interior. A fragment of the relic (the Shard) persists as a consumable through the remainder of the game.
 
-*Quest integration detail in: `GDD_quest_system.md`*
+The Relic is the game's one mandatory key item. No other hard-locked progression gates exist.
+
+*Quest integration in: `01_Design/GDD_systems.md`*
 
 ---
 
-## 12. Enemy Roster
+## 10. Enemy Roster
 
 Enemies organized by zone of primary appearance. Behavior, health values, damage output, and drop tables detailed in the enemy design system document.
 
-**Wychfeld — Exterior**
+**Wychfeld:**
 - Demonic Wolves — fast, silent, pack hunters
 - Goblins — organized, camp-based, command hierarchy
-- Lesser Wraiths — moor only, require Ghostlight Torch to fully materialize
+<!-- - Lesser Wraiths — moor only, require Ghostlight Torch to fully materialize -->
 
-**Ashenmoor — Castle Grounds**
-- Corrupted Soldiers — methodical, precision movement, heavily armored
-- Demonic Peasants — looping, aimless, dangerous in numbers
-
-**Ashenmoor — Interior**
+**Ashenmoor Grounds and Interior:**
+- Corrupted Soldiers — methodical, armored, precise
+- Demonic Peasants — looping and aimless, dangerous in numbers
 - Skeletons — fast, brittle, swarm behavior
 - Zombies — slow, high health, dangerous at close range
-<!-- - Various Monsters — mid-tier castle enemies, zone-specific variants -->
 
-**Ashenmoor — Elite**
-- Demonic Knights — seven encountered in dungeon corridor, armored, coordinated
+**Elite / Boss:**
 - Demonic Prince — elegant, blade-based, close-range energy attack
 - Demonic Princess — primary caster, uses Prince as shield
-
-**Ashenmoor - Dungeon**
+- Demonic Knights — seven encountered in dungeon corridor, armored, coordinated, final gauntlet before the cell
 - The Master — human sorcerer, range attacks, opening the portal
 - Necromancer - demonic sorcerer, range attacks, opening the portal
 - Banished Lord — finale boss, close-range attacks
 
-*Full enemy specs in: `systems_enemy_design.md`*
+*Enemy stats and behavior detail in: `01_Design/GDD_systems.md`*
 
 ---
 
-## 13. NPCs and Dialogue
+## 11. NPCs
 
-NPCs are concentrated in Thornwall town and Thornwall Castle. The overworld contains one significant NPC (Gest). Ashenmoor contains one ghostly NPC to deliver a hint at a secret.
+**Thornwall Town:**
+- **Father Cassian** — holds the Relic, gives it freely, provides the most complete account of the wizard's history
+- **Maret (hedge-witch)** — sells exotic consumables, hints at the wraith and the dark pool
+- **Brother Oswin (apothecary)** — sells healing and mana items, speaks warmly of the wizard
+- **Aldra (blacksmith)** — sells and upgrades equipment, mentions the wizard in passing
+- **Hobb (tavern keeper)** — rumor hub, fragmented intelligence about the north
+- **Sela and Davan** — rescued couple, give the Bread and Salt before the player departs
 
-**Thornwall Town**
-- Aldra — blacksmith, equipment upgrades
-- Brother Oswin — apothecary, healing and mana items
-- Maret — hedge-witch, exotic consumables and hints
-- Father Cassian — church, keeper of the Relic
-- Hobb — tavern keeper, rumor hub
-- Tomlin — cartwright, general supplies
-- Sela and Davan — rescued couple, Bread and Salt gift
+**Thornwall Castle:**
+- **King Orvyn** — quest giver, reward promise, portrait of the wizard on his wall
+- **Queen Isabeau** — silent appearance, no dialogue
+- **Galen (court physician)** — gives a Tincture of Mending, speaks of the wizard fondly
+- **Emmet (page)** — atmosphere and lore, most candid voice in the castle
+- **Aldric** — steward, gate to king, refuses to let the apprentice enter until magic is shown
+<!-- - Captain Amis — military intelligence exchange -->
 
-**Thornwall Castle**
-- King Orvyn — quest giver, reward promise
-- Aldric — steward, gate to king
-- Captain Amis — military intelligence exchange
-- Galen — court physician, healing item gift
-- Emmet — young page, lore and atmosphere
-- Queen Isabeau — silent appearance, no dialogue
+**Wychfeld:**
+- **Gest** — elderly farmer who refused to leave, optional wolf intelligence and errand
 
-**Wychfeld**
-- Gest — elderly farmer, wolf intelligence, optional errand
-
-*Full dialogue scripts in: `narrative_dialogue_scripts/`*
-*Character bibles in: `narrative_character_bibles/`*
-*Dialogue system mechanics in: `GDD_npc_and_dialogue_systems.md`*
+*Full dialogue scripts in: `01_Design/npcs_and_dialogue.md`*
 
 ---
 
-## 14. Quest System
+## 12. World Structure
 
-Quest progression is flag-based rather than journal-based — the world responds to what the player has done rather than presenting an explicit task list.
-
-Speaking to NPCs should provide sufficient context for players to proceed.
-
-Players who rush will miss texture but will not be hard-blocked except at the Relic acquisition, which is a required step.
-
-**Main Quest Spine:**
-1. Rescue the couple (tutorial — automatic)
-2. Enter Thornwall
-3. Gain access to Thornwall Castle
-4. Receive quest from King Orvyn
-5. Equip in town
-6. Gather Relic from Father Cassian
-7. Cross the Wychfeld
-8. Summon the wraith, enter the moat
-9. Clear Ashenmoor
-10. Confront the finale
-
-**Optional Quest Content:**
-- Gest's errand (Amber Fields)
-- Sunken Abbey exploration (Blighted Moor)
-- Watchtower clearance and view (Greywood)
-- Full NPC conversation trees in Thornwall
-
-*Full quest flag architecture in: `GDD_quest_system.md`*
-
----
-
-## 15. World Structure and Levels
-
-The game world is linear with optional branching. The player cannot return to earlier zones once certain thresholds are crossed (moat entry is one-way).
+Linear with one optional branch. The moat is a one-way threshold — the player cannot return to Thornwall or the Wychfeld once they enter Ashenmoor.
 
 ```
 Tutorial Woods
-    └── Thornwall (hub — full NPC access)
+    └── Thornwall (hub)
             └── Thornwall Castle (one visit)
-                    └── Wychfeld Overworld
-                            ├── Amber Fields
-                            ├── Greywood [optional: Watchtower]
-                            ├── Blighted Moor [optional: Sunken Abbey]
+                    └── Wychfeld
+                            ├── Amber Fields [Gest — optional errand]
+                            ├── Greywood
+                            <!-- [optional: Watchtower]
+                            ├── Blighted Moor [optional: Sunken Abbey] -->
                             └── Ashenmoor Approach
                                     └── Outer Ruins / Dark Pool
-                                            └── Moat (one-way threshold)
+                                            └── Moat [one-way threshold]
                                                     └── Barbican
                                                             └── Courtyard
                                                                     └── Great Hall
@@ -303,13 +254,35 @@ Tutorial Woods
                                                                                             └── Deepest Cell (finale)
 ```
 
-*Individual level documents in: `01_Design/Levels/`*
+*Room-by-room level detail in: `01_Design/levels.md`*
 
 ---
 
-## 16. Inventory and UI
+## 13. Quest Progression
 
-The player carries weapons, armor (equipped across five slots), and consumable items in a menu-accessible inventory screen. The HUD displays current health, current mana for the active weapon, equipped armor summary, and active consumable slot.
+Flag-based rather than journal-based. The world responds to what the player has done. No explicit task list is shown — context is gathered through NPC conversation.
+
+**Main Quest Spine:**
+1. Rescue the couple — tutorial, automatic
+2. Enter Thornwall, speak with NPCs
+3. Access Thornwall Castle, receive quest from King Orvyn
+4. Retrieve the Relic from Father Caelan
+5. Cross the Wychfeld
+6. Summon the wraith at the dark pool, enter the moat
+7. Clear Ashenmoor — barbican, courtyard, hall, chambers, dungeons
+8. Confront the finale
+
+**Optional Quest Content:**
+- Gest's errand (Amber Fields)
+<!-- - Sunken Abbey exploration (Blighted Moor)
+- Watchtower clearance and view (Greywood) -->
+- Full NPC conversation trees in Thornwall
+
+---
+
+## 14. UI and Save System
+
+**HUD:** Health indicator, active weapon mana, active consumable slot. Minimal — nothing that breaks the gothic atmosphere.
 
 *?Inventory access pauses gameplay — a deliberate JRPG-mode moment within the FPS flow, reinforcing the genre hybrid identity.?*
 
@@ -354,30 +327,32 @@ Medieval fantasy with gothic architecture and corrupted natural environments. Th
 
 The player's sorcerer aesthetic draws from apprentice-scholar rather than warrior — robes, not armor; wands and staves, not swords. The magical weapons should read as elegant, carved, mystical objects.
 
-*Full art direction and style references in: `art_direction_document.md`*
+*Full direction in: `03_Art/art_direction.md` and `04_Audio/audio_direction.md`*
 
 ---
 
-## 20. Scope and Cut List Reference
+## 16. Scope and Constraints
 
-The following elements are in full scope for the initial release:
+**Target playtime:** One hour
+**Team size:** Two people
+**Budget:** Minimal — no licensed assets, no voice acting, no external contractors in initial scope
 
+**In scope:**
 - Complete main quest spine
-- All twelve weapons
-- All twelve armor pieces
-- All twelve consumable items
-- All named NPCs and their dialogue trees
-- All main and optional levels
+- Seven weapons
+- Four armor pieces, five consumable types, two narrative consumables
+- All named NPCs and core dialogue
+- All main levels plus Amber Fields optional content
 
-The following elements are candidates for the cut list if schedule pressure requires:
+**Cut from larger design — available for post-launch update if desired:**
+- Blighted Moor and Sunken Abbey (optional zone)
+- Twin Wyrm, Siege Spire, Unraveling Eye, Anima Vessel weapons
+- Additional armor pieces
+- Covered portrait mystery in Thornwall Castle throne room
+- Watchtower reduced to environmental landmark only
 
-- Voice acting (replaceable with text-only dialogue)
-- The Blighted Moor and Sunken Abbey (optional zone, cuttable without breaking main quest)
-- The Anima Vessel weapon (mechanically complex, deprioritize if implementation is costly)
-- Secondary portrait mystery (covered portrait in Thornwall Castle throne room — can remain unresolved as atmosphere rather than developed as content)
-
-*Living cut list maintained in: `00_Admin/cut_list.md`*
+*Living cut list in: `00_Admin/cut_list.md`*
 
 ---
 
-*This document is a master index. All mechanical specifications, full dialogue, level layouts, and technical architecture live in their respective sub-documents referenced throughout. When this document and a sub-document conflict, the sub-document is authoritative. Flag conflicts for resolution in the next team sync.*
+*Sub-documents are authoritative over this master when conflicts arise. Flag conflicts at the next team sync.*
