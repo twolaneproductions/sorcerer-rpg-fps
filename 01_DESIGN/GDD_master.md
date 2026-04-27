@@ -303,7 +303,7 @@ No manual saving. Checkpoint spacing is appropriate for a one-hour game.
 
 **Art:** Medieval fantasy. Warm and maintained in Thornwall; ashen, geometric, and wrong in Ashenmoor; distorting and failing in the Wychfeld between them. The player's aesthetic is apprentice-scholar — robes, wands, staves — never warrior.
 
-*Full direction in: [03_Art/art_direction.md](../03_Art/art_direction.md) and [04_Audio/audio_direction.md](04_Audio/audio_direction.md)*
+*Full direction in: [03_Art/art_direction.md](../03_ART/art_direction.md) and [04_Audio/audio_direction.md](../04_AUDIO/audio_direction.md)*
 
 ---
 
