@@ -1,1 +1,0 @@
-**Performance Targets:** 60fps minimum at 1080p on mid-range hardware.
