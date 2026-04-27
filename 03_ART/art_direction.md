@@ -19,7 +19,7 @@ The tone should never get too heavy, and that should be reflected in the art sty
 
 The game's color temperature shifts as the player moves north. This is the primary visual argument of the overworld journey.
 
-<!-- I hate the medieval "gray" stereotype - this is a game, meant to be fun, and we'll have a color palette to match it - look at a lot of background/color work by Toriyama but also Vampire Hunter and even shows like Adventure Time -->
+<!-- I hate the medieval "gray" stereotype - this is a game, meant to be fun, and we'll have a color palette to match it - look at a lot of background/color work by Toriyama but also Vampire Hunter D and even shows like Adventure Time or Steven Universe for colorful, expressive design -->
 
 | Zone | Dominant Colors | Light Quality |
 |---|---|---|
@@ -38,7 +38,7 @@ The game's color temperature shifts as the player moves north. This is the prima
 ## Environment Design
 
 **Thornwall**
-Built by people who intended to stay. Stone foundations, timber upper stories, thatched or slate roofs. Worn but maintained — the wear is the wear of use, not neglect. Every building has been touched by human hands recently. Firelight in windows. Laundry. Boot prints in mud. The town should feel inhabited down to its details.
+Stone foundations, timber upper stories, thatched or slate roofs. Worn but maintained — the wear is the wear of use, not neglect. Every building has been touched by human hands recently. Firelight in windows. Laundry. Boot prints in mud. The town should feel inhabited down to its details.
 
 **Thornwall Castle**
 Larger scale than the town, same material vocabulary. The distinction is stone throughout — no timber. Banners are genuine fabric, worn at the edges. The great hall map table has actual paper maps with handwritten notations. The throne is oak and iron, not gilded. Power here is functional, not decorative.
