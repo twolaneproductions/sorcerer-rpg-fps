@@ -28,7 +28,7 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 ### Father Caelan
 **Role:** Keeper of the Relic. Most complete account of the wizard's history. Gives the Relic freely.
 **Location:** Church of the Pale Candle, vestry area.
-**Personality:** Sixty, lean, white-haired. Chooses every word before releasing it. Not fearful — troubled. Carries genuine grief about the wizard's departure and genuine faith in the player's purpose once it is established.
+**Personality:** Sixty, lean, white-haired. Carries genuine grief about the wizard's departure and genuine faith in the player's purpose once it is established.
 
 **Conversation Topics:**
 - *The town* — the fear, the shrine by the gate, the doubled watch. Atmospheric.
@@ -37,8 +37,7 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 - *The pool* — he knows of it. He will not say how. He says only that the water there is not natural water.
 
 **Key lines:**
-- *"He was a good man. The town was frightened. Those two things were both true at once and we did not handle it well."*
-- *"Take it. I have been keeping it for someone who would know what to do with it. I believe you are that person."*
+- ...
 
 **Flag dependencies:**
 - Topics *The wizard* and *The Relic* — require `ORVYN_SPOKEN` = true
