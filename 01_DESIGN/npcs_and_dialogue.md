@@ -53,12 +53,13 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 **Conversation Topics:**
 - *Trade* — opens shop interface
 - *The woods* — monitoring what is coming in from the north. Analytical rather than frightened.
-- *The ruins / the pool* — she knows it is not natural water. Something is in it that was a man once. Will not say more until `RELIC_ACQUIRED`.
+- *The ruins / the pool* — she knows it is not natural water. Something is in it that was once a man. Will not say more until `RELIC_ACQUIRED`.
 - *The wizard* — she respected him. Brief. Not sentimental.
 - *The Hungering Branch* — offered freely after full conversation tree is exhausted.
 
 **Key lines:**
-- *"The pool near the ruins is not water the way this cup is water. Something lives in it. Something that was a man, once."*
+- (about the wizard) *"Oh! Powerful wizard. Powerful wizard was he."*
+- *"Something lives in the pool near the ruins. Something that was once a man."*
 - *"Something of his will know when the time comes. You won't need to do anything. Just carry it."*
 
 **Flag dependencies:**
