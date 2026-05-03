@@ -204,17 +204,16 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 ### Gest
 **Role:** Optional NPC. Wolf patrol intelligence. Optional errand.
 **Location:** Third farmhouse on the right, Amber Fields, barricaded inside.
-**Personality:** Perhaps eighty. Refused to leave. Unbothered. Has been watching the wolves from her window for three weeks with the unsentimental precision of someone who spent sixty years farming. Makes excellent tea.
+**Personality:** Perhaps eighty. Refused to leave. Unbothered. Has been watching the wolves from her window for three weeks. Makes excellent tea.
 
 **Conversation Topics:**
 - *Why she stayed* — she doesn't explain. It's obvious to her.
 - *The wolves* — practical patrol intelligence. Useful to the player mechanically.
 - *The errand* — something needed from a farmhouse two buildings north. Reward: Sorcerer's Salve.
-- *The tea* — she offers it. No mechanical function. The player sits in a warm kitchen in a dead field and drinks tea with a very old woman who is not frightened.
+- *The tea* — she offers it. No mechanical function. The player sits in a warm kitchen in a dead field and drinks tea with a very old woman.
 
 **Key lines:**
-- *"I've lived in this house for sixty-one years. I'm not leaving because the neighbors got strange."*
-- *"They move in pairs mostly. The pair on the east side swings north every twenty minutes or so. You'll have a window."*
+- *"..."*
 
 **Flag dependencies:**
 - `GEST_ERRAND_COMPLETE` — unlocks full wolf intelligence and Salve reward
@@ -227,10 +226,10 @@ The following characters have limited or no dialogue trees. They exist as enviro
 
 **The Young Guard (red-haired)** — Thornwall gate. Makes eye contact. Does not speak beyond the initial entry exchange.
 
-**Captain Amis** — Outer bailey, Thornwall Castle. A few lines if approached — military information, not a full tree. Asks about the woods. Does not sound like she believes the garrison is enough.
+**Captain Amis** — Outer bailey, Thornwall Castle. A few lines if approached — military information, not a full tree. Asks about the woods. Does not sound like he believes the garrison is enough.
 
 **Steward Aldric** — Great hall, Thornwall Castle. Functional dialogue only — intercepts the player, verifies identity, admits them to the throne room.
 
-**The Old Soldier** — Corner table, the Broken Antler. Interactive only after Hobb's direction. Sketches the castle layout on a napkin after a short trust exchange. His map is partially accurate — things have changed since he was last inside. He does not say what happened to him there.
+**The Old Soldier** — Corner table, the Broken Antler. Interactive only after Hobb's direction. Sketches the castle layout on a tablecloth after a short trust exchange. His map is partially accurate — things have changed since he was last inside. He does not say what happened to him there.
 
 **The Water-Wraith** — Dark pool, outer ruins. Scripted exchange only — not a conversation tree. Recognition. The giving of the amulet. The drawing down. His face is visible above the waterline long enough to be seen clearly. He looks like a man who drowned a long time ago and has been waiting since.
