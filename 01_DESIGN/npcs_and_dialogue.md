@@ -1,6 +1,6 @@
 # npcs_and_dialogue.md
 ## Ashenmoor — NPCs and Dialogue
-**Gate Shaker Press**
+**OUR NEW INDIE GAME STUDIO**
 **Version:** 0.1
 **Last Updated:** 2026-04-26
 **Status:** Phase 0 — Stubs

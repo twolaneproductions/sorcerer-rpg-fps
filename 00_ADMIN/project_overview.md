@@ -1,10 +1,10 @@
 # Ashenmoor Project Overview
 
 ## Project Summary
-Ashenmoor is a one-hour first-person shooter with JRPG elements, developed by Gate Shaker Press. Built using UZDoom, it immerses players in a medieval dark fantasy setting where fast-paced FPS combat meets RPG progression mechanics.
+Ashenmoor is a one-hour first-person shooter with JRPG elements, developed by OUR NEW INDIE GAME STUDIO. Built using UZDoom, it immerses players in a medieval dark fantasy setting where fast-paced FPS combat meets RPG progression mechanics.
 
 ## Team
-- **Studio**: Gate Shaker Press (small indie game studio)
+- **Studio**: OUR NEW INDIE GAME STUDIO (small indie game studio)
 - **Team Size**: 2 people
 
 ## Platform

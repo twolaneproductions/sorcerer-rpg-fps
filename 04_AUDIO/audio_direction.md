@@ -1,6 +1,6 @@
 # audio_direction.md
 ## Ashenmoor — Audio Direction
-**Gate Shaker Press**
+**OUR NEW INDIE GAME STUDIO**
 **Version:** 0.1
 **Last Updated:** 2026-04-26
 **Status:** Phase 0 — Draft

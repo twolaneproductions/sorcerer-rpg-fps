@@ -1,6 +1,6 @@
 # GDD_master.md
 ## Ashenmoor — Game Design Document (Master)
-**Gate Shaker Press**
+**OUR NEW INDIE GAME STUDIO**
 **Version:** 0.2
 **Last Updated:** 2026-04-26
 **Status:** Phase 0 — Draft
