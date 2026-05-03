@@ -154,10 +154,10 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 - *The master* — went north three months ago. Has not returned. Told plainly.
 - *The quest* — return with proof the Banished Lord has been slain. The reward will be significant.
 - *The wizard* — the portrait is visible. If the player asks, Orvyn confirms it. An old friend. He says very little else.
+<!-- this portrait shows something of his attitude toward the wizard -->
 
 **Key lines:**
-- *"I am not going to tell you it will be safe. I am going to tell you it matters."*
-- *"Come back. That is the first part of the reward."*
+- *"..."*
 
 **Flag dependencies:**
 - `ORVYN_SPOKEN` — set on completing this conversation
