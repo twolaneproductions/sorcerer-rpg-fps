@@ -46,7 +46,7 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 ---
 
 ### Maret
-**Role:** Exotic consumables vendor. Most direct source of information about the wraith and the dark pool.
+**Role:** Hedge-Witch. Exotic consumables vendor. Most direct source of information about the wraith and the dark pool.
 **Location:** The Crooked Candle, down the side alley.
 **Personality:** Ageless — could be forty or seventy. Seven rings, ink-stained fingers. Direct without being warm. The only person in town who does not seem surprised that a sorcerer's apprentice has arrived.
 
