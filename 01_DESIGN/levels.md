@@ -74,11 +74,11 @@ A compact town — six key buildings arranged around a central cobblestone lane,
 
 **The Gate Area:** Main gate, guard post, shrine. The two escort guards are stationed here. The shrine is immediately visible on entry.
 
-**The Main Lane:** Central spine of town. The Broken Antler tavern (Hefin) on the left midway. The Green Mortar apothecary (Brother Oswin) on the right. The Hammer and Song smithy (Aldra) at the southern end — heard before seen.
+**The Main Lane:** Central spine of town. The Broken Antler tavern (Hobb) on the left midway. The Green Mortar apothecary (Brother Oswin) on the right. The Hammer and Song smithy (Aldra) at the southern end — heard before seen.
 
 **The Side Alley:** A narrow turning off the main lane leads to the Crooked Candle (Maret). Slightly set apart, slightly harder to find.
 
-**The Church:** Northern end of the lane, before the castle road branches. Father Caelan inside.
+**The Church:** Northern end of the lane, before the castle road branches. Father Cassian inside.
 
 **The Residential Quarter:** East of the main lane. Sela and Davan's home. The player finds them here if they seek them out.
 
@@ -94,16 +94,16 @@ Available for purchase — see GDD_systems.md Section 9. No free pickups in Thor
 
 ### NPCs
 - Guard (young, red-haired) — gate, outside
-- Hefin — Broken Antler, inside
+- Hobb — Broken Antler, inside
 - Brother Oswin — Green Mortar, inside
 - Aldra — Hammer and Song, forge area
 - Maret — Crooked Candle, inside
-- Father Caelan — Church of the Pale Candle, vestry area
+- Father Cassian — Church of the Pale Candle, vestry area
 - Sela and Davan — residential quarter
 
 ### Quest Flags
 - `THORNWALL_ENTERED` — set on entry (autosave)
-- `RELIC_ACQUIRED` — set when Relic taken from Father Caelan's vestry
+- `RELIC_ACQUIRED` — set when Relic taken from Father Cassian's vestry
 - `COUPLE_FOUND` — set when player speaks to Sela and Davan
 - `HUNGERING_BRANCH_UNLOCKED` — set after Maret's full conversation
 

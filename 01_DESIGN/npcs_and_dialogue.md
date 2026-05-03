@@ -25,14 +25,14 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 
 ---
 
-### Father Caelan
+### Father Cassian
 **Role:** Keeper of the Relic. Most complete account of the wizard's history. Gives the Relic freely.
 **Location:** Church of the Pale Candle, vestry area.
 **Personality:** Sixty, lean, white-haired. Carries genuine grief about the wizard's departure and genuine faith in the player's purpose once it is established.
 
 **Conversation Topics:**
 - *The town* — the fear, the shrine by the gate, the doubled watch. Atmospheric.
-- *The wizard* — the most complete account available. The driving-out, Caelan's own regret. Unlocked after `ORVYN_SPOKEN`.
+- *The wizard* — the most complete account available. The driving-out, Cassian's own regret. Unlocked after `ORVYN_SPOKEN`.
 - *The Relic* — what it is, why he kept it, why he gives it. Transitions to Relic handoff.
 - *The pool* — he knows of it. He will not say how. He says only that the water there is not natural water.
 
@@ -82,7 +82,7 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 - *"I cannot promise restocking. I'm telling you that now so it is not a surprise later."*
 
 **Flag dependencies:**
-- Relic mention plants the seed before Caelan confirms it — available from first meeting.
+- Relic mention plants the seed before Cassian confirms it — available from first meeting.
 
 ---
 
@@ -104,7 +104,7 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 
 ---
 
-### Hefin
+### Hobb
 **Role:** Tavern keeper and rumor hub.
 **Location:** The Broken Antler tavern.
 **Personality:** Heavyset, remarkable mustache, practiced calm. Has decided panic is bad for business and refuses to indulge it publicly. Scared and has chosen not to show it.
@@ -112,14 +112,14 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 **Conversation Topics:**
 - *The tavern* — full every night. People who don't want to be alone at home.
 - *Rumors* — overheard fragments. The couple from the northern road. The merchant and the standard. The guard and the wrong-walking shape.
-- *The old soldier* — sits in the corner every night. Hefin can direct the player to him. The soldier sketches the castle layout on a napkin if the player earns his trust.
+- *The old soldier* — sits in the corner every night. Hobb can direct the player to him. The soldier sketches the castle layout on a napkin if the player earns his trust.
 
 **Key lines:**
 - *"It's been like this three weeks. I've stopped asking people to go home. They don't want to go home."*
 - *"See the old man in the corner? He hasn't talked to anyone in two months."*
 
 **Flag dependencies:**
-- Old soldier becomes interactive only after Hefin's direction
+- Old soldier becomes interactive only after Hobb's direction
 
 ---
 
@@ -233,6 +233,6 @@ The following characters have limited or no dialogue trees. They exist as enviro
 
 **Steward Aldric** — Great hall, Thornwall Castle. Functional dialogue only — intercepts the player, verifies identity, admits them to the throne room.
 
-**The Old Soldier** — Corner table, the Broken Antler. Interactive only after Hefin's direction. Sketches the castle layout on a napkin after a short trust exchange. His map is partially accurate — things have changed since he was last inside. He does not say what happened to him there.
+**The Old Soldier** — Corner table, the Broken Antler. Interactive only after Hobb's direction. Sketches the castle layout on a napkin after a short trust exchange. His map is partially accurate — things have changed since he was last inside. He does not say what happened to him there.
 
 **The Water-Wraith** — Dark pool, outer ruins. Scripted exchange only — not a conversation tree. Recognition. The giving of the amulet. The drawing down. His face is visible above the waterline long enough to be seen clearly. He looks like a man who drowned a long time ago and has been waiting since.

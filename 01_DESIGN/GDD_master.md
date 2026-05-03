@@ -264,7 +264,7 @@ Flag-based rather than journal-based. The world responds to what the player has 
 1. Rescue the couple — tutorial, automatic
 2. Enter Thornwall, speak with NPCs
 3. Access Thornwall Castle, receive quest from King Orvyn
-4. Retrieve the Relic from Father Caelan
+4. Retrieve the Relic from Father Cassian
 5. Cross the Wychfeld
 6. Summon the wraith at the dark pool, enter the moat
 7. Clear Ashenmoor — barbican, courtyard, hall, chambers, dungeons

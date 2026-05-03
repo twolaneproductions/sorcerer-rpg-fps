@@ -68,7 +68,7 @@ The following require custom ZScript implementation:
 - `feature/[name]` — individual feature branches, merged to dev when complete
 
 **Commit conventions:**
-- Present tense, imperative: *Add dialogue tree for Father Caelan*, not *Added* or *Adding*
+- Present tense, imperative: *Add dialogue tree for Father Cassian*, not *Added* or *Adding*
 - Prefix with system tag: `[dialogue]`, `[combat]`, `[inventory]`, `[level]`, `[audio]`, `[ui]`
 - No commit to main without both team members reviewing
 

@@ -1,6 +1,3 @@
-# The Narrative
-
-## TOC
 
 - [Summary](#summary)
 - [Story](#story)
@@ -10,6 +7,29 @@
   - [Part Three](#part-three)
   - [Part Four](#part-four)
 - [Setting](#setting)
+  - [**THORNWALL** — The Town at the Edge of the Woods](#thornwall--the-town-at-the-edge-of-the-woods)
+    - [The Gates and the Wall](#the-gates-and-the-wall)
+    - [Important Sites](#important-sites)
+    - [The Mood of the Town](#the-mood-of-the-town)
+  - [**THORNWALL CASTLE** — Seat of the King](#thornwall-castle--seat-of-the-king)
+    - [Exterior and Approach](#exterior-and-approach)
+    - [Important Sites Within the Castle](#important-sites-within-the-castle)
+    - [Castle Personnel](#castle-personnel)
+    - [The Castle's Atmosphere](#the-castles-atmosphere)
+  - [**THE WYCHFELD** — The Land Between - Overworld](#the-wychfeld--the-land-between---overworld)
+    - [The Road North](#the-road-north)
+    - [The Zones](#the-zones)
+    - [Ambient Details](#ambient-details)
+    - [What the Wychfeld Is](#what-the-wychfeld-is)
+  - [Dungeon - **ASHENMOOR CASTLE** — The Seat of the Banished Lord](#dungeon---ashenmoor-castle--the-seat-of-the-banished-lord)
+    - [Exterior Approach](#exterior-approach)
+    - [The Barbican and Entry](#the-barbican-and-entry)
+    - [The Courtyard](#the-courtyard)
+    - [The Great Hall](#the-great-hall)
+    - [The Private Chambers](#the-private-chambers)
+    - [The Dungeons](#the-dungeons)
+    - [The Deepest Cell](#the-deepest-cell)
+    - [The Architecture of Dread](#the-architecture-of-dread)
 
 # Summary
 

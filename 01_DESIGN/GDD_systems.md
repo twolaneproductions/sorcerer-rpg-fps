@@ -351,9 +351,9 @@ These items are unique — one exists in the entire game. They cannot be purchas
 
 ### The Relic
 
-**Description:** A small carved artifact — material and form to be determined by art direction, but clearly magical in origin and clearly old. It hums faintly when held. Its specific function is not apparent to the player until Maret or Father Caelan provides context.
+**Description:** A small carved artifact — material and form to be determined by art direction, but clearly magical in origin and clearly old. It hums faintly when held. Its specific function is not apparent to the player until Maret or Father Cassian provides context.
 
-**Acquisition:** Father Caelan's vestry, Thornwall church. Given freely once the player's purpose is established through conversation.
+**Acquisition:** Father Cassian's vestry, Thornwall church. Given freely once the player's purpose is established through conversation.
 
 **Function:** When brought to the dark pool at Ashenmoor's outer ruins and held over the water, it summons the Water-Wraith — the drowned wizard whose artifact it was. The Wraith surfaces, recognizes his property, and draws the player into the moat as passage into the castle. The Relic shatters on the pool's surface as the player is pulled under. The Shard remains.
 
@@ -512,7 +512,7 @@ NPC dialogue is implemented as branching conversation trees triggered by proximi
 ### Conversation Structure
 
 Each NPC has:
-- **Greeting line** — varies based on quest flag state. Father Caelan greets a stranger differently than he greets someone who has spoken to Maret about the wizard.
+- **Greeting line** — varies based on quest flag state. Father Cassian greets a stranger differently than he greets someone who has spoken to Maret about the wizard.
 - **Topic menu** — a list of selectable topics. Topics appear and disappear based on quest flags.
 - **Exit line** — brief, consistent with character. Not a dismissal.
 
@@ -522,9 +522,9 @@ Dialogue branches check flags before displaying. Example:
 
 ```
 IF RELIC_ACQUIRED = false AND ORVYN_SPOKEN = true
-    Father Caelan → Topic: "The Relic" → AVAILABLE
+    Father Cassian → Topic: "The Relic" → AVAILABLE
 ELSE IF RELIC_ACQUIRED = true
-    Father Caelan → Topic: "The Relic" → REPLACED WITH "Safe travels"
+    Father Cassian → Topic: "The Relic" → REPLACED WITH "Safe travels"
 ```
 
 Full flag list in Section 8.
@@ -549,8 +549,8 @@ All quest progression is tracked through boolean flags. No quest journal is disp
 |---|---|---|
 | `TUTORIAL_COMPLETE` | Couple escorted to Thornwall gate | Unlocks town NPC full dialogue |
 | `THORNWALL_ENTERED` | Player passes through main gate | Thornwall ambient state change |
-| `ORVYN_SPOKEN` | King Orvyn's full briefing completed | Unlocks Relic topic with Father Caelan |
-| `RELIC_ACQUIRED` | Relic picked up from vestry | Removes Relic topic from Caelan, adds it to Maret |
+| `ORVYN_SPOKEN` | King Orvyn's full briefing completed | Unlocks Relic topic with Father Cassian |
+| `RELIC_ACQUIRED` | Relic picked up from vestry | Removes Relic topic from Cassian, adds it to Maret |
 | `MARET_WARNED` | Maret's dark pool dialogue completed | Optional — adds dialogue option at the pool |
 | `HUNGERING_BRANCH_UNLOCKED` | Full Maret conversation completed | Adds Hungering Branch to her inventory |
 | `COUPLE_FOUND` | Player speaks to Sela and Davan in town | Triggers Bread and Salt gift |
