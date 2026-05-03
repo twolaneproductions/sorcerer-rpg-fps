@@ -79,7 +79,6 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 - *The wizard* — knew him as a herbalist. Mentions the Relic obliquely — the priest has something of his.
 
 **Key lines:**
-- *"The most knowledgeable herbalist I ever met, and I trained with monks for eleven years."*
 - *"I cannot promise restocking. I'm telling you that now so it is not a surprise later."*
 
 **Flag dependencies:**
@@ -89,17 +88,16 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 
 ### Aldra
 **Role:** Blacksmith vendor. Pragmatic anchor for the town.
-**Location:** The Hammer and Song, forge area.
-**Personality:** Broad-shouldered, fifties, silver braid. Contempt for collective panic — barely concealed. Works longer hours than necessary because the sound of the hammer keeps people calm.
+**Location:** The Hammer Song, forge area.
+**Personality:** Broad-shouldered, fifties, silver braid. Works longer hours than necessary because the sound of the hammer keeps people calm.
 
 **Conversation Topics:**
 - *Trade* — opens shop interface
-- *The town's fear* — understandable and impractical in equal measure.
-- *The wizard* — came by occasionally. Odd fellow. Never caused trouble.
+- *The town's fear* — understandable and impractical in equal measure. Once, there were mighty knights for whom he forged weapons and armor, but where are they now?
+- *The wizard* — came by occasionally for odd designs, all destroyed now.
 
 **Key lines:**
-- *"People stop forging things, demons win. I have not stopped forging things."*
-- *"Odd fellow. Never caused a lick of trouble. Knew more about metalwork than he had any right to, for a wizard."*
+- ...
 
 **Flag dependencies:** None — full conversation available from first meeting.
 
@@ -108,12 +106,12 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 ### Hobb
 **Role:** Tavern keeper and rumor hub.
 **Location:** The Broken Antler tavern.
-**Personality:** Heavyset, remarkable mustache, practiced calm. Has decided panic is bad for business and refuses to indulge it publicly. Scared and has chosen not to show it.
+**Personality:** Heavyset, remarkable mustache, practiced calm. Has decided panic is bad for business and refuses to indulge it publicly.
 
 **Conversation Topics:**
 - *The tavern* — full every night. People who don't want to be alone at home.
 - *Rumors* — overheard fragments. The couple from the northern road. The merchant and the standard. The guard and the wrong-walking shape.
-- *The old soldier* — sits in the corner every night. Hobb can direct the player to him. The soldier sketches the castle layout on a napkin if the player earns his trust.
+- *The old soldier* — sits in the corner every night. Hobb can direct the player to him. The soldier sketches the castle layout if the player earns his trust.
 
 **Key lines:**
 - *"It's been like this three weeks. I've stopped asking people to go home. They don't want to go home."*

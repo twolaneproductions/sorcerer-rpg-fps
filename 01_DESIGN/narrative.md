@@ -104,7 +104,7 @@ A crude shrine has been erected just inside the gate — candles, dried flowers,
 
 ### Important Sites
 
-**The Hammer and Song — Blacksmith**
+**The Hammer Song — Blacksmith**
 Run by **Aldra**, a broad-shouldered woman in her fifties with a long silver braid and permanently scorched forearms. She is the most practically-minded person in Thornwall and barely conceals her contempt for the town's collective panic. Her forge is the warmest, loudest place in town — a deliberate psychological anchor for the community. She works longer hours than she needs to, partly to keep busy, partly because the sound of the hammer seems to keep people calm. She sells standard equipment but has recently begun experimenting with etched protective runes on her metalwork at the suggestion of the town's hedge-witch, about whom she is professionally skeptical and personally fond. She will upgrade the player's basic equipment and makes an offhand remark about the old wizard who used to stop by — *odd fellow, never caused a lick of trouble, didn't deserve what the townsfolk did to him.*
 
 **The Green Mortar — Apothecary**

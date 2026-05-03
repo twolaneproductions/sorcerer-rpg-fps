@@ -74,7 +74,7 @@ A compact town — six key buildings arranged around a central cobblestone lane,
 
 **The Gate Area:** Main gate, guard post, shrine. The two escort guards are stationed here. The shrine is immediately visible on entry.
 
-**The Main Lane:** Central spine of town. The Broken Antler tavern (Hobb) on the left midway. The Green Mortar apothecary (Brother Oswin) on the right. The Hammer and Song smithy (Aldra) at the southern end — heard before seen.
+**The Main Lane:** Central spine of town. The Broken Antler tavern (Hobb) on the left midway. The Green Mortar apothecary (Brother Oswin) on the right. The Hammer Song smithy (Aldra) at the southern end — heard before seen.
 
 **The Side Alley:** A narrow turning off the main lane leads to the Crooked Candle (Maret). Slightly set apart, slightly harder to find.
 
