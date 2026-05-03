@@ -1,3 +1,16 @@
+# The Narrative
+
+## TOC
+
+- [Summary](#summary)
+- [Story](#story)
+  - [Prologue - Cutscene](#prologue---cutscene)
+  - [Part One](#part-one)
+  - [Part Two](#part-two)
+  - [Part Three](#part-three)
+  - [Part Four](#part-four)
+- [Setting](#setting)
+
 # Summary
 
 Following in the footsteps of your absent master, you are a sorcerer apprentice who ventures to a small kingdom plagued by monsters, demons, and the undead. Tasked by the lord of the realm to defeat the banished lord, you set off through the woods to discover into the castle ruins in the hope that you can put an end to whatever devilry is afoot.
