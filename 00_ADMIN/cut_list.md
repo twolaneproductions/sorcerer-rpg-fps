@@ -64,7 +64,7 @@ This document holds everything that has been removed from active scope. Nothing 
 *Post-launch potential:* Moderate.
 
 **Swiftstrider Boots**
-*Reason:* Movement speed modification interacts with GZDoom's movement model in ways that require careful tuning. A nice addition once core systems are stable.
+*Reason:* Movement speed modification interacts with UZDoom's movement model in ways that require careful tuning. A nice addition once core systems are stable.
 *Post-launch potential:* High — low effort reinstatement once the game ships.
 
 **Talisman of the Ancestors**

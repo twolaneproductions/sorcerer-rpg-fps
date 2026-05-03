@@ -41,7 +41,7 @@ The game blends the fast-paced, heavy-hitting combat feel of the classic Doom en
 **Engine:** UZDoom
 Chosen for its first-person combat foundation, scripting depth sufficient for NPC dialogue and quest flags, and cross-platform support without licensing cost.
 
-**Platform:** PC — Windows primary, Mac and Linux via GZDoom's native support. Initial release on itch.io.
+**Platform:** PC — Windows primary, Mac and Linux via UZDoom's native support. Initial release on itch.io.
 
 **Performance Target:** 60fps at 1080p on mid-range hardware.
 
