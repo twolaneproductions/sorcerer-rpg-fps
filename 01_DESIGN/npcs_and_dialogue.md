@@ -130,10 +130,10 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 **Conversation Topics:**
 - *Their home* — they are staying. No alternatives. No self-pity.
 - *The gift* — Sela presses the Bread and Salt into the player's hands. No ceremony.
-- *Davan's line* — a single sentence. The most direct and honest thing said in the entire town section. Not a blessing. Not a warning. Something true. Reserved for full script.
+- *Davan's line* — a single sentence...
 
 **Key lines:**
-- Sela: *"It isn't much. It's what we have."*
+- Sela: *"..."*
 - Davan: *[to be determined in full script — it lands.]*
 
 **Flag dependencies:**
@@ -148,7 +148,7 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 ### King Orvyn
 **Role:** Quest giver. Establishes stakes and reward.
 **Location:** The Throne Room.
-**Personality:** Perhaps sixty, grey-bearded, came to kingship from soldiering. Direct. Ceremony around bad news strikes him as wasteful.
+**Personality:** Perhaps sixty, grey-bearded, came to kingship from soldiering. Direct.
 
 **Conversation Topics:**
 - *The master* — went north three months ago. Has not returned. Told plainly.
