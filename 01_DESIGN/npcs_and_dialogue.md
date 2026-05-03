@@ -171,11 +171,10 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 
 **Conversation Topics:**
 - *His work* — still doing it, regardless of everything.
-- *The wizard* — treated him once for a sprained wrist. Best conversationalist in thirty years of court life. Gives the Tincts as a gesture, not a transaction.
+- *The wizard* — Warns the player against getting too involved with the townsfolk. They can sniff out a wizard, and .
 
 **Key lines:**
-- *"A sprained wrist, from moving too many bookshelves alone. We talked for four hours."*
-- *"Take these. Come back."*
+- *"Be wary of the townsfolk. They can practically smell magic. And the last wizard who dwelt in these parts was not greeted with open arms."*
 
 **Flag dependencies:** None.
 
@@ -188,11 +187,11 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 
 **Conversation Topics:** (brief — Emmet is caught mid-errand)
 - *The King* — hasn't laughed since the news came from the north.
-- *Captain Mira* — sleeps in her armor now.
-- *The wizard* — saw him turn a sparrow into a candle flame and back again.
+- *Captain Amis* — sleeps in her armor now.
+- *The wizard* — He was always too fond of the townsfolk, and the feeling wasn't mutual. I think they took their anger at the king out on him.
 
 **Key lines:**
-- *"He turned a sparrow into a candle. Just to see if he could. Then he turned it back and it flew away and he looked very pleased with himself."*
+- (about the wizard) *"No one believes me, but... I once saw him walk through a wall."*
 
 **Flag dependencies:** None. Intercepting Emmet is optional.
 
@@ -228,7 +227,7 @@ The following characters have limited or no dialogue trees. They exist as enviro
 
 **The Young Guard (red-haired)** — Thornwall gate. Makes eye contact. Does not speak beyond the initial entry exchange.
 
-**Captain Mira** — Outer bailey, Thornwall Castle. A few lines if approached — military information, not a full tree. Asks about the woods. Does not sound like she believes the garrison is enough.
+**Captain Amis** — Outer bailey, Thornwall Castle. A few lines if approached — military information, not a full tree. Asks about the woods. Does not sound like she believes the garrison is enough.
 
 **Steward Aldric** — Great hall, Thornwall Castle. Functional dialogue only — intercepts the player, verifies identity, admits them to the throne room.
 

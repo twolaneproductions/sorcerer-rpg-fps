@@ -80,7 +80,7 @@ This document holds everything that has been removed from active scope. Nothing 
 *Post-launch potential:* High — the natural centerpiece of a lore expansion.
 
 **Emmet the page's full conversation tree**
-*Reason:* Three of Emmet's dialogue branches reference content from the blighted moor and the watchtower encounter. Trimmed to the core beats — the King's mood, Mira's habits, the sparrow story.
+*Reason:* Three of Emmet's dialogue branches reference content from the blighted moor and the watchtower encounter. Trimmed to the core beats — the King's mood, Amis's habits, the sparrow story.
 *Post-launch potential:* N/A — restored automatically if cut zones are reinstated.
 
 ---

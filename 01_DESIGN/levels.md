@@ -127,7 +127,7 @@ A single-visit zone. The player gains access through a small magic demonstration
 ### Layout
 **The Outer Gate:** Two guards. The junior guard requires the magic demonstration — one Hex Twig bolt into the air is sufficient.
 
-**The Outer Bailey:** Training ground east, stable west. Captain Mira observing the drilling soldiers.
+**The Outer Bailey:** Training ground east, stable west. Captain Amis observing the drilling soldiers.
 
 **The Great Hall:** Map table, advisors, Steward Aldric. Aldric intercepts the player before the throne room.
 
@@ -145,7 +145,7 @@ None.
 
 ### NPCs
 - Gate guard (senior and junior) — outer gate
-- Captain Mira — outer bailey
+- Captain Amis — outer bailey
 - Steward Aldric — great hall
 - King Orvyn — throne room
 - Harwen — side corridor
