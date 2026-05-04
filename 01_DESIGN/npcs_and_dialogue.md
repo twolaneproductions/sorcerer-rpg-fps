@@ -7,6 +7,25 @@
 
 ---
 
+- [npcs\_and\_dialogue.md](#npcs_and_dialoguemd)
+  - [Ashenmoor — NPCs and Dialogue](#ashenmoor--npcs-and-dialogue)
+  - [Document Conventions](#document-conventions)
+  - [Thornwall Town NPCs](#thornwall-town-npcs)
+    - [Father Cassian](#father-cassian)
+    - [Maret](#maret)
+    - [Brother Oswin](#brother-oswin)
+    - [Aldra](#aldra)
+    - [Hobb](#hobb)
+    - [Sela and Davan](#sela-and-davan)
+  - [Thornwall Castle NPCs](#thornwall-castle-npcs)
+    - [King Orvyn](#king-orvyn)
+    - [Harwen](#harwen)
+    - [Emmet](#emmet)
+  - [Wychfeld NPC](#wychfeld-npc)
+    - [Gest](#gest)
+  - [Ambient / Non-Interactive NPCs](#ambient--non-interactive-npcs)
+
+
 ## Document Conventions
 
 Each NPC entry contains:
@@ -27,7 +46,9 @@ Full dialogue scripts to be written in Phase 2 (Thornwall Build). These stubs ar
 
 ### Father Cassian
 **Role:** Keeper of the Relic. Most complete account of the wizard's history. Gives the Relic freely.
+
 **Location:** Church of the Pale Candle, vestry area.
+
 **Personality:** Sixty, lean, white-haired. Carries genuine grief about the wizard's departure and genuine faith in the player's purpose once it is established.
 
 **Conversation Topics:**

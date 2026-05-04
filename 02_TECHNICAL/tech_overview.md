@@ -1,4 +1,16 @@
 # tech_overview.md
+
+- [tech\_overview.md](#tech_overviewmd)
+  - [Ashenmoor — Technical Overview](#ashenmoor--technical-overview)
+  - [Engine](#engine)
+  - [Platform Targets](#platform-targets)
+  - [Architecture Overview](#architecture-overview)
+  - [Version Control](#version-control)
+  - [Build Pipeline](#build-pipeline)
+  - [Performance Targets](#performance-targets)
+  - [Known Technical Risks](#known-technical-risks)
+
+
 ## Ashenmoor — Technical Overview
 **OUR NEW INDIE GAME STUDIO**
 **Version:** 0.1
@@ -75,7 +87,7 @@ The following require custom ZScript implementation:
 **Asset handling:**
 Large binary assets (textures, audio files, WAD resources) tracked via Git LFS. Raw source files kept in a shared cloud folder outside the repository. Only compiled/optimized assets commit to the repo.
 
-*Full branching and merge procedure in: `version_control.md`*
+*Full branching and merge procedure in: [version_control.md](./version_control.md)*
 
 ---
 
